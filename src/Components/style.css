@@ -1,0 +1,151 @@
+figure {
+  text-align: center;
+}
+.input {
+  position: relative;
+  width: 50%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.input-field {
+  left: 0;
+  display: block;
+  width: 100%;
+}
+
+.list {
+  background-color: #424de9;
+  width: 50%;
+  margin: auto;
+  margin-top: 5px;
+  text-align: left;
+}
+
+.eachItem {
+  margin: 10px 0;
+  position: relative;
+  display: flex;
+  padding: 5px;
+}
+.eachItem:hover {
+  background-color: #ffffff;
+}
+
+.listButton {
+  position: absolute;
+  right: 0;
+  top: 7.5px;
+}
+.icon1 {
+  padding: 0 5px;
+}
+
+.btndiv {
+  text-align: center;
+}
+
+.icon {
+  position: absolute;
+  right: 0;
+  min-width: 40px;
+  cursor: pointer;
+}
+
+form {
+  margin-top: 5%;
+}
+.form {
+  text-align: center;
+}
+
+.fa {
+  /* margin-left: -2.5rem; */
+  cursor: pointer;
+  /* pointer-events: auto; */
+  z-index: 10;
+  /* background-color: #fff; */
+  background-image: none;
+  color: rgb(3, 3, 3);
+  -webkit-transition: color 0.15s linear;
+  transition: color 0.15s linear;
+  font-size: 2rem;
+}
+.fa-plus:hover {
+  color: rgb(47, 214, 122);
+}
+.fa-edit:hover {
+  color: rgb(17, 0, 250);
+}
+.fa-trash-alt:hover {
+  color: rgb(238, 12, 12);
+}
+
+/* .fa-plus:before {
+  content: "\f067";
+  font-size: 1.5rem;
+} */
+
+/* Add padding to containers */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  /* padding: 20px; */
+  /* margin-top: 10rem; */
+}
+
+/* Button Animated Border on Hover */
+.btn-border {
+  background-color: #3543c4;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "BenchNine", Arial, sans-serif;
+  font-size: 1em;
+  font-size: 22px;
+  line-height: 1em;
+  margin: 15px 40px;
+  outline: none;
+  padding: 12px 40px 10px;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 70;
+}
+
+.btn-border:before,
+.btn-border:after {
+  border-color: transparent;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+  border-style: solid;
+  border-width: 0;
+  content: "";
+  height: 24px;
+  position: absolute;
+  width: 24px;
+}
+
+.btn-border:before {
+  border-color: #3543c4;
+  border-top-width: 2px;
+  left: 0px;
+  top: -5px;
+}
+
+.btn-border:after {
+  border-bottom-width: 2px;
+  border-color: #3543c4;
+  bottom: -5px;
+  right: 0px;
+}
+
+.btn-border:hover {
+  background-color: #3543c4;
+}
+
+.btn-border:hover:before,
+.btn-border:hover:after {
+  height: 100%;
+  width: 100%;
+}
