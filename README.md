@@ -1,4 +1,4 @@
-https://angry-ride-272ef1.netlify.app/
+https://todolist-sejanas.netlify.app/
 
 # Getting Started with Create React App
 
